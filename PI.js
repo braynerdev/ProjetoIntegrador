@@ -110,12 +110,12 @@ while (s == 1) {
         }
         if (editCliente == "1" || editCliente == "sim"){
             console.log("1-nome\n2-Data de Nascimento\n3-CNPJ\n4-Telefone\n5-Email\n6-Lougradouro\n7-Número\n8-Complemento\n9-CEP\n10-Cidade\n11-EstadoCampo")
-            var campoEdit = prompt("Qual campo dejesa alterar?: ").toLowerCase();
+            var campoEdit = prompt("Qual campo deseja alterar?: ").toLowerCase();
             console.log();
 
             while (campoEdit != "1" && campoEdit != "nome"  && campoEdit != "2" && campoEdit != "data de nascimento" && campoEdit != "3" && campoEdit != "cnpj" && campoEdit != "4" && campoEdit != "telefone" && campoEdit != "5" && campoEdit != "email" && campoEdit != "6" && campoEdit != "lougradouro" && campoEdit != "7" && campoEdit != "número" && campoEdit != "8" && campoEdit != "complemento" && campoEdit != "9" && campoEdit != "cep" && campoEdit != "10" && campoEdit != "cidade" && campoEdit != "11" && campoEdit != "estado" ) {
                 console.log("1-nome\n2-Data de Nascimento\n3-CNPJ\n4-Telefone\n5-Email\n6-Lougradouro\n7-Número\n8-Complemento\n9-CEP\n10-Cidade\n11-EstadoCampo")
-                var campoEdit = prompt("Qual campo dejesa alterar?: ").toLowerCase();
+                var campoEdit = prompt("Qual campo deseja alterar?: ").toLowerCase();
                 console.log();
             }
             if (campoEdit == "1" || campoEdit == "nome"){
