@@ -1,4 +1,13 @@
 const prompt = require("prompt-sync")({sigint:true});
+/*    EQUIPE
+    JOÃO BRAYNER
+    SOCORRO BARRETO
+    DANIELA LOPES
+    RICARDO SANTOS
+    THIAGO MARIANO
+    TÁCYTO
+    MARCOS
+*/
 var s = 1;
 var  A = 1;
 while (s == 1) {
